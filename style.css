@@ -1,7 +1,10 @@
-.board {
+*{
+    font-family: Tahoma;
+}
+.status, .result {
+    font-size:20px;
 
 }
-
 .board__row {
     display:flex;
 }
@@ -24,4 +27,13 @@
 
 .board__cell--krzyzyk {
     background-image: url(images/krzyzyk.png);
+}
+
+.info {
+    display:flex;
+    justify-content: space-around;
+}
+
+.info>div {
+    padding:10px;
 }
